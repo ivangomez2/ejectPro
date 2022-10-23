@@ -1,0 +1,54 @@
+.contact__input {
+  color: white !important;
+  background-color: rgba(112, 108, 108, 0.705);
+  border-radius: 5px;
+}
+
+.contact__cont {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  
+  background-image: url(https://i.imgur.com/q5OPJmK.jpg);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 20px;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 2px 15px 5px #62000076;
+  box-shadow: 1px 2px 15px 5px #62000076;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.contact__cont h3 {
+  color: #ed0404a5;
+}
+
+.contact__name {
+  gap: 8px;
+}
+
+
+.contactText__textCont{
+  width: 500px; 
+  color: white;
+  margin-left: -100px;
+  gap: 10px;
+}
+
+.contactText__textCont h5{
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.contactText__cont{
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 100px;
+  
+}
+
+.contactText__cont img{
+  width: 600px;
+}

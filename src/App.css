@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.bgText{
+  animation-name: textMove;
+  animation-duration: 3s;
+  font-size: 30px;
+  text-decoration: blink;
+  color: white;
+  justify-content: space-evenly;
+  font-weight: 600;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-color: white;
+}
+
+.bgText p{
+  font-style:italic;
+
+}
+
+.linearBar{
+  top: 100px;
+  position: fixed;
+}
+
+.bgImgAnimation{
+  max-width: 900px;
+  animation-name: bgMove;
+  animation-duration: 3s;
+}
+@keyframes textMove {
+  
+  
+  
+  0% {
+    opacity:0;
+  }
+  25%{
+    opacity: 0.3;
+    background-image: linear-gradient(79deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 12%, rgba(252,241,241,1) 32%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 78%, rgba(255,127,127,1) 100%);
+    background-position: 0% 0%;
+  }
+  50%{
+    background-image: linear-gradient(79deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 12%, rgba(252,241,241,1) 32%, rgba(255,255,255,1) 50%, rgba(255,45,45,1) 78%, rgba(255,0,0,1) 100%);
+  opacity:0.5;
+  background-position: top center;
+  background-position: -1000px -1000px;
+}
+75%{
+  opacity: 0.7;
+  background-image: (79deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 12%, rgba(252,241,241,1) 32%, rgba(255,0,0,1) 50%, rgba(255,45,45,1) 78%, rgba(255,0,0,1) 100%);
+  background-position: top right;
+  background-position: -800px -800px;
+}
+
+85%{
+  opacity: 0.9;
+  background-image: linear-gradient(79deg, rgba(255,255,255,1) 0%, rgba(244,165,165,1) 12%, rgba(255,0,0,1) 32%, rgba(255,0,0,1) 50%, rgba(255,45,45,1) 78%, rgba(255,0,0,1) 100%);;
+  background-position: -400px -400px;
+}
+
+100% {
+  background-image: linear-gradient(79deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 12%, rgba(255,0,0,1) 32%, rgba(255,0,0,1) 50%, rgba(255,45,45,1) 78%, rgba(255,0,0,1) 100%);;
+  opacity:1;
+  background-position: -200px -200px;
+  }
+ 
+  
+}
+
+@keyframes bgMove {
+
+
+
+    0% {
+    opacity:0%;
+    }
+    20%{
+      opacity: 10%;
+    }
+    
+    
+    100% {
+    opacity:95%
+    }
+   
+}
+
+.bgImg{
+  width: 860px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

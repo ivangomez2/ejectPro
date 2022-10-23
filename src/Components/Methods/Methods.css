@@ -1,0 +1,329 @@
+.methods__bar {
+  border: solid 1px white;
+  width: 80%;
+  height: 230px;
+  margin-bottom: 10px;
+}
+
+.methods__Cont {
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.methods__description{
+  margin-top: 30px;
+}
+
+.methods__description h3 {
+  text-align: center;
+  color: #cccccc;
+  background-color: #09090a;
+  margin-top:30px ;
+}
+
+.methods__buttonMethod {
+  display: flex;
+  padding-left: 200px;
+  gap: 55px !important;
+  animation: buttonsOpacity 2s ;
+  background-image: url(https://i.ibb.co/p6qbznk/fondiito.png);
+  background-size: 170px;
+  
+  background-repeat: no-repeat;
+}
+
+@keyframes hrAnimation {
+  0%{
+    width: 0%;
+  }
+  10% {
+    width: 10%;
+  }
+  30% {
+    width: 25%
+  }
+  40% {
+    width: 30%
+  }
+
+}
+
+@keyframes buttonsOpacity {
+  0%{
+    opacity: 0.4;
+  }
+  100%{
+    opacity: 0.8;
+  }
+}
+
+@keyframes hrMoving {
+  0%{
+    width: 45%;
+  }
+  50%{
+    width: 46%;
+  }
+  100%{
+    width: 47%;
+  }
+
+ 
+}
+
+.methods__hr {
+  position: absolute;
+  background-color:#ffffff;
+  border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+  width: 360px;
+  right: 261px;
+  top:1225px;
+ animation: hrAnimation  2s;
+
+  height: 3px !important;
+
+  z-index: -1;
+}
+
+.methods__buttonMethod img {
+  width: 140px;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.methods__imgMethodDescripcion {
+  width: 300px;
+  opacity: 0.8;
+  margin-left: 100px;
+  border-radius: 50px 50px 0px 0px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textFade {
+  0% {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 90px solid #ffffff;
+  }
+  50% {
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 80px solid #ffffff;
+  }
+  100% {
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-left: 75px solid #ffffff;
+  }
+}
+
+.methods__list {
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.methods__listDetail {
+  background-color: #3e000054;
+  margin-left: -200px;
+  border-radius: 10px;
+}
+
+.methods__listDetail ul {
+  list-style-type: none;
+  color: white;
+  font-weight: 550;
+  font-size: 13px;
+  color: rgb(136, 0, 0);
+}
+
+.methods__objetivos {
+  margin-top: 50px;
+}
+
+
+
+.methods__objetivosImgs img {
+  width: 150px;
+}
+
+.methods__list img {
+  width: 180px;
+  z-index: 3;
+}
+
+.methods__bannerIntro {
+  position: relative;
+  
+  height: 350px;
+  margin-left: 55px;
+  margin-top: 70px;
+
+
+}
+
+.Methods__Card {
+  background-color: black;
+  color: white;
+}
+
+.Methods__Card button {
+  background-color: #3e0000;
+  border: none;
+}
+
+.methods__marcaContShip {
+  position: absolute;
+  width: 400px;
+  top: 1070px;
+  opacity: 0.5;
+  z-index: -1;
+  left: 35px;
+}
+
+.methods__Cont img {
+  width: 120px;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.methods__Cont img:hover {
+  opacity: 0.5;
+}
+
+.methods__menuCont {
+  gap: 80px;
+  margin-top: 100px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: rgb(161, 161, 161);
+  height: 650px;
+}
+.menu h4 {
+  font-weight: 700;
+}
+
+.menu__img {
+  border-radius: 5%;
+  width: 150px;
+
+  margin: 0 auto;
+}
+
+.methods__titlePhoto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.methods__titlePhoto img {
+  max-width: 340px;
+}
+
+.methods__titlePhoto h6 {
+  max-width: 390px;
+}
+
+.methods__title {
+  margin-top: 200px;
+
+  color: red;
+}
+
+.menu__img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  box-shadow: 0px 0px 6px 0px rgba(226, 224, 224, 0.75);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(226, 224, 224, 0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(226, 224, 224, 0.75);
+}
+
+.methods__marcaCont {
+  width: 170px;
+}
+
+.methods__marcaCont p {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(190, 190, 190);
+}
+
+.methods__marcaContHr {
+  width: 100%;
+}
+
+.methods__video {
+  width: 80%;
+
+  margin-left: -200px;
+  margin-top: 0px;
+}
+
+.methods__presentacionCont h6 {
+  width: 700px;
+  text-align: center;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.methods__objetivo img {
+  margin-left: -140px;
+}
+
+.methods__detailCont {
+  margin-top: 40px;
+}
+
+.methods__detailCont h3 {
+  color: #b1aaa1;
+  background-color: #09090a;
+}
+
+.methods__detailContDetail{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #A1A1A1;
+ margin-top: -10px !important;
+ background: rgb(0,0,0);
+background: linear-gradient(79deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 32%, rgba(0,0,0,1) 50%, rgba(13,11,11,1) 78%, rgba(32,30,30,1) 100%);
+}
+
+.methods__detailContDetail img {
+  width: 50px;
+
+  
+}
+
+.methods__listmenuBanner{
+  width: 280px;
+  margin-top: 80px;
+
+  margin-left: -50px;
+
+}

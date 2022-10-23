@@ -1,0 +1,12 @@
+.carousel__cont{
+margin: 0 auto;
+width: 100%;
+}
+
+.carousel__imgs{
+    
+    margin-top: -120px;
+    margin-left: -100px;
+    width: 110%;
+    border-radius: 5px;
+}

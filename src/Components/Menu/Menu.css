@@ -1,0 +1,92 @@
+.top-nav {
+  position: fixed;
+  bottom: 85%;
+  margin-left: 30px;
+  animation-name: fade;
+  animation-duration: 3s;
+  height: 70px;
+}
+
+
+.instagram__fixedIcon{
+  width: 25px !important;
+  margin-top: 10px;
+}
+
+.menus__bar {
+  width: 35px;
+  border: solid 1px white;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: aliceblue;
+  margin-top: 5px;
+}
+
+.menus__bar:hover{
+  border: solid 1px red;
+}
+
+.menus__fixPos {
+  margin-bottom: 5px !important;
+}
+
+.menus__whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+     top:78%;
+     left: -25px;
+     
+
+}
+
+.menus__whatsapp img {
+  width: 150px;
+
+}
+
+.menu__cont{
+  display: flex;
+  
+
+}
+
+
+
+.menu__ul{
+  list-style: none;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.menu__ul li{
+  margin-top: 5px;
+}
+
+.menu__ul li:hover{
+  color: red;
+ 
+}
+
+
+.showText:hover + .hide {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  color: white;
+  opacity: 0.8;
+  border: solid 1px white; 
+  
+}
+
+.hide{
+  display: none;
+  position: absolute;
+  bottom: 130px;
+  color: red;
+  font-weight: 600;
+}
+  
