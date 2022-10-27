@@ -74,6 +74,48 @@
  
 }
 
+@keyframes fadeCont {
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes grow {
+  0% {
+    font-size: 3em;
+  }
+  50% {
+    font-size: 8em;
+  }
+  100% {
+    font-size: 3em;
+  }
+}
+
+
+.methods__presentacionCont{
+margin: 0 auto;
+animation: grow 8s ease-out infinite;
+ 
+}
+
+.methods__loadingImg img{
+  max-width: 500px;
+}
+
+.methods__contOpacity{
+ animation-name: fadeCont;
+ animation-duration: 3s;
+
+}
+
 .methods__hr {
   position: absolute;
   background-color:#ffffff;
@@ -169,7 +211,9 @@
 
 .methods__bannerIntro {
   position: relative;
-  
+  box-shadow: 10px 10px 5px -5px rgba(23,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px -5px rgba(23,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -5px rgba(23,0,0,0.75);
   height: 350px;
   margin-left: 55px;
   margin-top: 70px;
@@ -299,13 +343,17 @@
   margin-top: 40px;
 }
 
+
 .methods__detailCont h3 {
   color: #b1aaa1;
   background-color: #09090a;
+ 
 }
 
 .methods__detailContDetail{
   display: flex;
+  gap: 30px;
+  
   align-items: center;
   justify-content: space-evenly;
   color: #A1A1A1;
@@ -316,9 +364,14 @@ background: linear-gradient(79deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 12%, rgba(0,0
 
 .methods__detailContDetail img {
   width: 50px;
-
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.34);
+-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.34);
+-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.34);
   
 }
+
+
 
 .methods__listmenuBanner{
   width: 280px;
